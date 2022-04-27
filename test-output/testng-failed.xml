@@ -5,8 +5,8 @@
     <classes>
       <class name="com.test.shopping.Checkout">
         <methods>
+          <include name="validateQuantity"/>
           <include name="setup"/>
-          <include name="validateaQuantity"/>
           <include name="cleanup"/>
         </methods>
       </class> <!-- com.test.shopping.Checkout -->
